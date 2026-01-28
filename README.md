@@ -1,51 +1,20 @@
-# Portfolio ISA
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-Este é o repositório do projeto Portfolio ISA. Aqui você encontrará o código-fonte e os recursos necessários para o desenvolvimento e manutenção do portfólio.
+# Run and deploy your AI Studio app
 
-## Estrutura do Projeto
+This contains everything you need to run your app locally.
 
-- **src/**: Contém os arquivos principais do código-fonte.
-- **assets/**: Contém imagens, ícones e outros recursos estáticos.
-- **docs/**: Documentação adicional do projeto.
+View your app in AI Studio: https://ai.studio/apps/drive/1-825ieVsiJD7_Fu7B0H9tgiBqWoiSRZd
 
-## Como Executar
+## Run Locally
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/Danielfreiman/portfolio_isa.git
-   ```
-2. Navegue até o diretório do projeto:
-   ```bash
-   cd portfolio_isa
-   ```
-3. Instale as dependências (se aplicável):
-   ```bash
-   npm install
-   ```
-4. Execute o projeto:
-   ```bash
-   npm start
-   ```
+**Prerequisites:**  Node.js
 
-## Contribuição
 
-Contribuições são bem-vindas! Siga os passos abaixo para contribuir:
-
-1. Faça um fork do repositório.
-2. Crie uma nova branch para sua funcionalidade ou correção de bug:
-   ```bash
-   git checkout -b minha-branch
-   ```
-3. Faça suas alterações e commit:
-   ```bash
-   git commit -m "Descrição das alterações"
-   ```
-4. Envie suas alterações para o repositório remoto:
-   ```bash
-   git push origin minha-branch
-   ```
-5. Abra um Pull Request.
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
